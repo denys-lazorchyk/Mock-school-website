@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="../css/materialize.min.css" media="screen,projection" />
+
+    <link rel="stylesheet" href="../css/contacts.css">
+    <link rel="icon" href="../Imgs/icon.png">
+    <link rel="stylesheet" href="../css/styleIndex.css">
+
+    <title>CSNH</title>
+</head>
+
+<body>
+    <header>
+        <nav class="light-blue nav-div nav-wrapper">
+            <div class=" container">
+                <a href="../index.html" class="brand-logo cool-font">CSNH</a>
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="./news.html">News</a></li>
+                    <li><a href="./aboutUs.html">About us</a></li>
+                    <li><a href="./forStudents.html">For Students</a></li>
+                </ul>
+            </div>
+        </nav>
+        <ul class="sidenav" id="mobile-demo">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="./news.html">News</a></li>
+            <li><a href="./aboutUs.html">About us</a></li>
+            <li><a href="./forStudents.html">For Students</a></li>
+        </ul>
+    </header>
+    <main>
+        <section class="contacts">
+            <div class="container">
+                <h1 class="cool-font">Contacts:</h1>
+            </div>
+            <div class="container ways">
+                <div class="row">
+                    <h3>Contacts us via:</h3>
+                    <div class="collection">
+                        <a href="#!" class="collection-item wayOfComunication" data-showMe='randomEmail@email.com'
+                            data-old="Email">Email</a>
+                        <a href="#!" class="collection-item wayOfComunication" data-showMe='+ 1234567890'
+                            data-old="Phone 1">Phone 1</a>
+                        <a href="#!" class="collection-item wayOfComunication" data-showMe='+ 0987654321'
+                            data-old="Phone 2">Phone 2</a>
+                        <a href="#!" class="collection-item wayOfComunication" data-showMe='Earth, Ukraine, Kyiv, ....'
+                            data-old="Foot">Foot</a>
+                    </div>
+                </div>
+                <div class="row">
+                    <h3>Leave us a note:</h3>
+                    <form class="col s12">
+                        <div class="row">
+                            <div class="input-field col l6 s12">
+                                <i class="material-icons prefix">account_circle</i>
+                                <input id="first_name" type="text" class="validate first_name">
+                                <label for="first_name">First Name</label>
+                            </div>
+                            <div class="input-field col l6 s12">
+                                <i class="material-icons prefix">account_circle</i>
+                                <input id="last_name" type="text" class="validate last_name">
+                                <label for="last_name">Last Name</label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="input-field col l6 s12">
+                                <i class="material-icons prefix">email</i>
+                                <input id="email" type="email" class="validate email">
+                                <label for="email">Email</label>
+                            </div>
+                            <div class="input-field col l6 s12">
+                                <i class="material-icons prefix">phone</i>
+                                <input id="icon_telephone" type="tel" class="validate telephone">
+                                <label for="icon_telephone">Telephone</label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <form class="col s12">
+                                <div class="row">
+                                    <div class="input-field col s12">
+                                        <textarea id="textarea1" class="materialize-textarea textarea"></textarea>
+                                        <label for="textarea1">Textarea</label>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <button class="btn-large waves-effect waves-light light-blue submit" type="submit"
+                            name="action">Submit
+                            <i class="material-icons right">send</i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="page-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="white-text">Coolest school name here</h5>
+                    <p class="grey-text text-lighten-4">or shortly 'best school ever', or so...
+                    </p>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                    <h5 class="white-text">Links:</h5>
+                    <ul>
+                        <li><a class="grey-text text-lighten-3" href="#!">Facebook</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Instagram</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Email</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                © 2021 Created by Denys Lazorchyk
+                <a class="grey-text text-lighten-4 right" href="#!"></a>
+            </div>
+        </div>
+    </footer>
+    <script defer src="../js/contacts.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="../js/materialize.min.js"></script>
+    <script src="https://code.jquery.com/jquery-migrate-1.4.1.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $('.sidenav').sidenav();
+        });
+    </script>
+</body>
+
+</html>

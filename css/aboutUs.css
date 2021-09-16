@@ -1,0 +1,30 @@
+:root {
+	--main-color: #03a9f4;
+	--secondary-color: #ff2856;
+	--main-color-hover: #1d96ce;
+	--greyish: #a5a5a5;
+}
+
+.about-us {
+	min-height: 80vh;
+	padding-top: 80px;
+	margin-bottom: 80px;
+}
+
+.teachers {
+	margin-top: 130px;
+}
+
+.about-intro {
+	margin-bottom: 20px;
+}
+
+.teacher {
+	width: 100%;
+}
+
+@media (max-width: 600px) {
+	.teachers {
+		margin-top: 50px;
+	}
+}

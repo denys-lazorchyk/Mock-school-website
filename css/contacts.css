@@ -1,0 +1,38 @@
+:root {
+	--main-color: #03a9f4;
+	--secondary-color: #ff2856;
+	--main-color-hover: #1d96ce;
+	--greyish: #a5a5a5;
+}
+
+.contacts {
+	min-height: 80vh;
+	padding-top: 80px;
+	margin-bottom: 80px;
+}
+
+.ways {
+	margin-top: 80px;
+}
+
+.material-icons.prefix.active,
+.input-field input[type="text"]:focus + label,
+.input-field input[type="email"]:focus + label,
+.input-field input[type="tel"]:focus + label,
+.input-field textarea:focus + label {
+	color: var(--main-color) !important;
+}
+
+.input-field input[type="text"].valid,
+.input-field input[type="email"].valid,
+.input-field input[type="tel"].valid,
+.input-field input[type="text"]:focus,
+.input-field input[type="email"]:focus,
+.input-field input[type="tel"]:focus .input-field textarea:focus {
+	border-bottom: 1px solid var(--main-color) !important;
+	/* box-shadow: 0 1px 0 0 #000; */
+}
+
+.btn-large {
+	border-radius: 35px;
+}
